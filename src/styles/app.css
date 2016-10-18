@@ -1,0 +1,65 @@
+.page {
+	padding: 2em;
+}
+.search-page, .edit-page {
+	display: flex;
+	justify-content: space-around;
+}
+.charts-page>* {
+	margin: 0 auto;
+}
+.charts-page>h1 {
+	width: fit-content;
+	padding: 1em 0;
+}
+
+.btn {
+	display: block;
+	padding: .5em;
+	text-align: center;
+}
+
+.input {
+	padding-left: 1em;
+}
+
+.nav {
+	display: flex;
+	width: 100%;
+}
+.nav>.btn {
+	flex: 1;
+}
+
+.list-container {
+	min-width: 10em;
+	padding: .5em;
+	width: fit-content;
+}
+.list-container>* {
+	border-top: 1px solid #600;
+	margin: 2em 0;
+}
+
+.list-item {
+	display: flex;
+}
+.list-item:hover {
+	cursor: pointer;
+	background: #d1a5fc;
+}
+.list-item>span {
+	display: block;
+	padding: .5em;
+	width: 100%;
+}
+
+
+.querybar-component {
+	border: 1px solid #a0a0ff;
+	display: flex;
+	width: fit-content;
+}
+.querybar-component>* {
+	border: none;
+}
